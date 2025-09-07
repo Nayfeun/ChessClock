@@ -15,7 +15,7 @@ public class Clock {
 
     private boolean started = false;
 
-    public Clock(String name, double time, int increment, TextView timerTextView) {
+    public Clock(double time, int increment, TextView timerTextView) {
         this.time = time;
         this.increment = increment;
         this.timerTextView = timerTextView;

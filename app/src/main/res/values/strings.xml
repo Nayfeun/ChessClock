@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">ChessClock</string>
+    <string name="app_name">Chess Clock</string>
+    <string name="countdown_initial_text">Countdown</string>
+    <string name="main_title">Flexible\nChess Clock</string>
+    <string name="start_button">Start</string>
+    <string name="time_selection_instructions">Please enter each player\'s time and increment</string>
+    <string name="play_button">Play</string>
 </resources>

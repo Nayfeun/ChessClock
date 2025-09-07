@@ -28,8 +28,8 @@ public class GameActivity extends AppCompatActivity {
         TextView blackTimer = findViewById(R.id.blackRemainingTime);
 
         Intent intent = getIntent();
-        Clock whiteClock = new Clock("white", intent.getDoubleExtra("white_timer", 600), intent.getIntExtra("white_increment", 0), whiteTimer);
-        Clock blackClock = new Clock("black", intent.getDoubleExtra("black_timer", 600), intent.getIntExtra("black_increment", 0), blackTimer);
+        Clock whiteClock = new Clock(intent.getDoubleExtra("white_timer", 600), intent.getIntExtra("white_increment", 0), whiteTimer);
+        Clock blackClock = new Clock(intent.getDoubleExtra("black_timer", 600), intent.getIntExtra("black_increment", 0), blackTimer);
 
         findViewById(R.id.lowerHalf).setOnClickListener(v -> {
                     if (!blackClock.isRunning() && !blackClock.isOutOfTime() && !whiteClock.isOutOfTime()) {

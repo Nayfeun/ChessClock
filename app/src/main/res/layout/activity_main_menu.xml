@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-thin"
             android:gravity="center"
-            android:text="Flexible\nChess Clock"
+            android:text="@string/main_title"
             android:textColor="#FFFFFF"
             android:textSize="54sp"
             app:lineHeight="82sp" />
@@ -39,7 +39,7 @@
             android:layout_marginTop="56dp"
             android:backgroundTint="@color/black"
             android:fontFamily="@font/montserrat_semibold"
-            android:text="Start"
+            android:text="@string/start_button"
             android:textColor="@color/white"
             android:textSize="20sp" />
     </LinearLayout>
